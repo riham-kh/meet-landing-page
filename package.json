@@ -1,0 +1,15 @@
+{
+  "name": "meet-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Meet landing page coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass starter-code/styles/sass/main.scss starter-code/styles/css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.0",
+    "sass": "^1.45.0"
+  }
+}
