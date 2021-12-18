@@ -1,0 +1,127 @@
+header {
+  padding-top: 80px;
+  text-align: center;
+  margin-bottom: 61px;
+
+  img {
+    vertical-align: bottom;
+  }
+}
+
+.step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 64px;
+
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    background-color: $grey-light-color;
+    color: $grey-medium-color;
+  }
+
+  .line {
+    height: 84px;
+    width: 1px;
+    background-color: rgba(135, 135, 157, 0.25);
+  }
+}
+
+#intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 110px;
+
+  .img-left {
+    object-position: -32px 50%;
+    align-self: flex-start;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img-right {
+    object-position: 32px 50%;
+    align-self: flex-end;
+    max-width: 100%;
+    height: auto;
+  }
+  .value-proposition {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 7px;
+    padding-top: 47px;
+
+    .text-xxl {
+      max-width: 445px;
+      margin-bottom: 34px;
+      margin-top: 0px;
+    }
+
+    .text-l {
+      max-width: 540px;
+      margin-bottom: 32px;
+      margin-top: 0px;
+    }
+
+    .btn-blue {
+      margin-right: 16px;
+    }
+  }
+}
+
+#gallery {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 72px;
+  text-align: center;
+
+  .images-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+
+    .gallery-img {
+      max-width: 255px;
+      height: auto;
+      border-radius: 8px;
+
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .text-m {
+      margin-top: 0px;
+      margin-bottom: 16px;
+    }
+
+    .text-xl {
+      max-width: 455px;
+      margin-bottom: 32px;
+      margin-top: 0px;
+    }
+
+    .text-l {
+      max-width: 540px;
+      margin: 0px;
+    }
+  }
+}
