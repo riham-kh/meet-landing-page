@@ -1,0 +1,29 @@
+.text-xxl {
+  color: $navy-dark-color;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 100%;
+}
+
+.text-xl {
+  color: $navy-dark-color;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.text-l {
+  color: $grey-medium-color;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.text-m {
+    color: $blue-primary-color;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }

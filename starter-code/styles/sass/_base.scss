@@ -2,7 +2,6 @@ html {
   height: 100%;
   padding: 0;
   box-sizing: border-box;
-  background-color: #E0E8FF;
 }
 
 *, *:before, *:after {
@@ -13,5 +12,5 @@ body {
    height: 100%;
   margin: 0;
   font-family: 'Red Hat Display', sans-serif;
-  background: #FAFAFA;
+  background: $grey-light-color;
 }
