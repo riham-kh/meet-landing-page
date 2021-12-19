@@ -24,6 +24,14 @@
   letter-spacing: 4px;
   text-transform: uppercase; }
 
+@media only screen and (max-width: 768px) {
+  .text-xxl {
+    font-size: 48px;
+    line-height: 48px; }
+  .text-l {
+    font-size: 16px;
+    line-height: 26px; } }
+
 html {
   height: 100%;
   padding: 0;
@@ -62,6 +70,46 @@ body {
       margin-left: 4px; }
     .btn-pink:hover {
       background-color: #b18bdd; }
+
+header {
+  padding-top: 48px !important;
+  margin-bottom: 64px !important; }
+
+.hero-img-tablet {
+  display: none; }
+
+@media only screen and (max-width: 768px) {
+  section#intro {
+    flex-direction: column;
+    margin-bottom: 80px; }
+    section#intro .img-right,
+    section#intro .img-left {
+      display: none; }
+    section#intro .hero-img-tablet {
+      display: block;
+      width: 110%; }
+    section#intro div.value-proposition {
+      padding-top: 72px;
+      padding-bottom: 0px; }
+      section#intro div.value-proposition .text-xxl {
+        max-width: 339px;
+        margin-bottom: 24px; }
+      section#intro div.value-proposition .text-l {
+        max-width: 457px;
+        margin-bottom: 32px; } }
+
+@media only screen and (max-width: 600px) {
+  section#intro {
+    margin-bottom: 64px; }
+    section#intro div.value-proposition {
+      padding-left: 24px;
+      padding-right: 24px; }
+  div.btns-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    div.btns-wrapper button.btn-blue {
+      margin: 0px 0px 16px 0px; } }
 
 header {
   padding-top: 80px;

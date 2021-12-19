@@ -20,10 +20,22 @@
 }
 
 .text-m {
-    color: $blue-primary-color;
-    font-weight: 900;
+  color: $blue-primary-color;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  .text-xxl {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .text-l {
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
   }
+}
